@@ -21,7 +21,7 @@
 
 	data_4 				DC.T -360 		;!! Not Aligned to 4! (new memory word)
 	data_5 				DC4.S -85745	; on SD, thist MUST be aligned to 4!!
-	data_6 				DC4.T 69		;also this MUST be aligned to 4 on SDCard!!
+	data_6 				DC4.T 69		;also this MUST be aligned to 4!!
 
 	str_tst				DC4.T "Trit/Short/Trit value:",0
 	
